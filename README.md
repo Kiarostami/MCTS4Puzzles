@@ -1,2 +1,8 @@
 # MCTS4Puzzles
 A Classification of how MCTS solves logical puzzles.
+
+
+# Description
+Solving puzzles has become increasingly important in artificial intelligence research since the solutions could be directly applied to real-world or general problems such as pathfinding, path planning, and exploration problems. Selecting the best approach to solve puzzles has always been an essential issue. Monte-Carlo Tree Search (MCTS) has surged into popularity as a promising approach due to its low run-time and memory complexity. Thus, it is required to know how to employ this method to solve the puzzles. 
+
+In this work, we study the applicability of MCTS in solving puzzles or solving a puzzle with MCTS, not comparing many MCTS approaches. We propose a general classification of puzzles based on their features. This classification consists of four primary classes that provide a mathematical formula for each and their satisfactory criteria. This classification let us know how to utilize MCTS based on the puzzle’s features. We pass each puzzle to an MCTS algorithm as a series of satisfaction functions based on this mathematical formulation. The classification can perform general pathfinding or path-planning if the outlining problem is defined within the described mathematical constraints. MCTS progressively solves a puzzle until the functions are completely satisfied in our proposed classification. We examine different puzzles for each class using our proposed methodology. Furthermore, to evaluate the proposed method’s performance, each of these puzzles is compared with their available SAT solvers using the Z3 implementation and different variations of MCTS that are generally used.
